@@ -8,7 +8,7 @@ public class MovingBall : MonoBehaviour {
         None, Center, Left, Right
     }
 
-    private float forceForMoving = 108;
+    private float forceForMoving = 100;
     private Direction inputDirection = Direction.None;
     private Direction movingDriection;
     private bool isMove = false;
